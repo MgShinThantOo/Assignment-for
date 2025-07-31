@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        .none{
+            display: none;
+        }
+        h1{
+            background-image: url(wild.jpg);
+            background-repeat: no-repeat;
+            width: 400px;
+            text-align: center;
+            padding: 5px 0;
+            margin: 24px auto;
+        }
+        p{
+            background-color: pink;
+            font-size: 20px;
+            padding: 8px 12px;
+        }
+        ul{
+            display: inline-block;
+            background-color: cyan;
+            padding: 16px 16px 16px 24px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="">Inline or floating frame</h1>
+    <p class="">
+        The iframe tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and border. An inline is used to embed another document within the current HTML Document. 
+        <br>
+        One of the most popular uses of frame is to place navigation bars in one frame and then load main pages into a separate frame. The target attribute can also take one of the following using values:
+    </p>
+    <ul>
+        <li>Self</li>
+        <li>Blank</li>
+        <li>Parent</li>
+        <li>Top</li>
+    </ul>
+
+    <section class="">
+        <iframe src="exc5_page1.html" width="555px" height="200px">
+        </iframe>
+        <iframe src="exc5_page2.html" width="555px" height="200px" class="none" >
+        </iframe>
+    </section>
+</body>
+</html>
